@@ -8,4 +8,7 @@ int main(void){
     scanf("%f",&num2);
     printf("Enter the operation you want to perform +, -, *,/: ");
     scanf(" %c",&operation);
-    
+    switch(operation){
+        case '+':
+        printf("%.2f + %.2f= %.2f",num1,num2,num1+num2);
+        break;
