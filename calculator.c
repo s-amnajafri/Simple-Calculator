@@ -22,3 +22,5 @@ int main(void){
         printf("%.2f + %.2f= %.2f",num1,num2,num1/num2);
         break;
     }
+    return 0;
+}
